@@ -32,6 +32,7 @@
 		617BA968254AA41300B940B5 /* MNParentViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 617BA952254AA41300B940B5 /* MNParentViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		617BA971254AA65E00B940B5 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA970254AA65E00B940B5 /* ParentViewController.swift */; };
 		617BA974254AAACB00B940B5 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA972254AAACB00B940B5 /* ParentViewController.storyboard */; };
+		617BA978254AAFDA00B940B5 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA972254AAACB00B940B5 /* ParentViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -551,6 +552,7 @@
 				617BA8F3254A9DA700B940B5 /* LaunchScreen.storyboard in Resources */,
 				617BA8F0254A9DA700B940B5 /* Assets.xcassets in Resources */,
 				617BA8EE254A9DA500B940B5 /* Main.storyboard in Resources */,
+				617BA978254AAFDA00B940B5 /* ParentViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
