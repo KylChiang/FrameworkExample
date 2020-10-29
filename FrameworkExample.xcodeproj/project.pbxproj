@@ -15,6 +15,7 @@
 		617BA8F3254A9DA700B940B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA8F1254A9DA700B940B5 /* LaunchScreen.storyboard */; };
 		617BA8FE254A9DA800B940B5 /* FrameworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8FD254A9DA800B940B5 /* FrameworkExampleTests.swift */; };
 		617BA909254A9DA800B940B5 /* FrameworkExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA908254A9DA800B940B5 /* FrameworkExampleUITests.swift */; };
+		617BA917254A9FF800B940B5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA916254A9FF800B940B5 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		617BA904254A9DA800B940B5 /* FrameworkExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617BA908254A9DA800B940B5 /* FrameworkExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkExampleUITests.swift; sourceTree = "<group>"; };
 		617BA90A254A9DA800B940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617BA916254A9FF800B940B5 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				617BA8E6254A9DA500B940B5 /* AppDelegate.swift */,
 				617BA8E8254A9DA500B940B5 /* SceneDelegate.swift */,
 				617BA8EA254A9DA500B940B5 /* ViewController.swift */,
+				617BA916254A9FF800B940B5 /* Note.swift */,
 				617BA8EC254A9DA500B940B5 /* Main.storyboard */,
 				617BA8EF254A9DA700B940B5 /* Assets.xcassets */,
 				617BA8F1254A9DA700B940B5 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				617BA8EB254A9DA500B940B5 /* ViewController.swift in Sources */,
 				617BA8E7254A9DA500B940B5 /* AppDelegate.swift in Sources */,
 				617BA8E9254A9DA500B940B5 /* SceneDelegate.swift in Sources */,
+				617BA917254A9FF800B940B5 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
