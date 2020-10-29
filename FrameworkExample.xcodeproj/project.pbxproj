@@ -24,6 +24,7 @@
 		617BA92B254AA20000B940B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA929254AA20000B940B5 /* LaunchScreen.storyboard */; };
 		617BA936254AA20000B940B5 /* Save_to_FrameworkExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA935254AA20000B940B5 /* Save_to_FrameworkExampleTests.swift */; };
 		617BA941254AA20000B940B5 /* Save_to_FrameworkExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA940254AA20000B940B5 /* Save_to_FrameworkExampleUITests.swift */; };
+		617BA94C254AA2B300B940B5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA916254A9FF800B940B5 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -478,6 +479,7 @@
 				617BA923254AA1FF00B940B5 /* ViewController.swift in Sources */,
 				617BA91F254AA1FF00B940B5 /* AppDelegate.swift in Sources */,
 				617BA921254AA1FF00B940B5 /* SceneDelegate.swift in Sources */,
+				617BA94C254AA2B300B940B5 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
