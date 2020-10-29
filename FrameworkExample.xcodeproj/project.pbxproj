@@ -301,6 +301,7 @@
 		617BA953254AA41300B940B5 /* MNParentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				61A98667254AC19F008D3A66 /* Library */,
 				617BA972254AAACB00B940B5 /* ParentViewController.storyboard */,
 				617BA954254AA41300B940B5 /* MNParentViewController.h */,
 				617BA955254AA41300B940B5 /* Info.plist */,
@@ -316,6 +317,13 @@
 				617BA963254AA41300B940B5 /* Info.plist */,
 			);
 			path = MNParentViewControllerTests;
+			sourceTree = "<group>";
+		};
+		61A98667254AC19F008D3A66 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
