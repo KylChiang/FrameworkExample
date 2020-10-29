@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MNParentViewController
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,12 @@ class ViewController: UIViewController {
         _ = Note()
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if let parentVC = segue.destination as? ParentViewController {
+            // do something
+        }
+    }
 }
 
