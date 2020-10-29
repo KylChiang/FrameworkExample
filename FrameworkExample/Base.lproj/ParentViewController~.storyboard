@@ -46,7 +46,7 @@
                                 </constraints>
                                 <state key="normal" title="See!"/>
                                 <connections>
-                                    <segue destination="cZT-sj-Xl4" kind="show" id="dpB-FN-fFj"/>
+                                    <segue destination="Crl-ay-xTI" kind="show" id="dpB-FN-fFj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -64,13 +64,48 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
-        <!--ParentViewController-->
-        <scene sceneID="raT-Yo-ACq">
+        <!--Parent View Controller-->
+        <scene sceneID="mP2-JY-eTS">
             <objects>
-                <viewControllerPlaceholder storyboardName="ParentViewController" id="cZT-sj-Xl4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="fEY-aN-fM0"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XjX-Gx-Nuu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="Crl-ay-xTI" customClass="ParentViewController" customModule="MNParentViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JY2-Nu-maq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0jy-bS-8o3">
+                                <rect key="frame" x="107" y="321" width="200" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parent!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qY-2O-8WI">
+                                        <rect key="frame" x="17.5" y="75" width="165" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dfI-oZ-7cY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1qY-2O-8WI" secondAttribute="trailing" constant="17.5" id="We4-iS-J2X"/>
+                                    <constraint firstAttribute="height" constant="200" id="XgC-RP-uE8"/>
+                                    <constraint firstItem="1qY-2O-8WI" firstAttribute="leading" secondItem="0jy-bS-8o3" secondAttribute="leading" constant="17.5" id="XpL-HL-GPv"/>
+                                    <constraint firstAttribute="width" constant="200" id="k6M-Dd-Ksd"/>
+                                    <constraint firstItem="1qY-2O-8WI" firstAttribute="centerY" secondItem="0jy-bS-8o3" secondAttribute="centerY" id="wHl-sN-G61"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0jy-bS-8o3" firstAttribute="centerX" secondItem="JY2-Nu-maq" secondAttribute="centerX" id="acd-pj-w2l"/>
+                            <constraint firstItem="0jy-bS-8o3" firstAttribute="centerY" secondItem="JY2-Nu-maq" secondAttribute="centerY" id="xla-Yz-OJP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dis-Y8-WHb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="goN-5J-6tw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTC-IB-jbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="987" y="133"/>
         </scene>

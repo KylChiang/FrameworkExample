@@ -31,6 +31,7 @@
 		617BA967254AA41300B940B5 /* MNParentViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617BA952254AA41300B940B5 /* MNParentViewController.framework */; };
 		617BA968254AA41300B940B5 /* MNParentViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 617BA952254AA41300B940B5 /* MNParentViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		617BA971254AA65E00B940B5 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA970254AA65E00B940B5 /* ParentViewController.swift */; };
+		617BA974254AAACB00B940B5 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA972254AAACB00B940B5 /* ParentViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		617BA961254AA41300B940B5 /* MNParentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNParentViewControllerTests.swift; sourceTree = "<group>"; };
 		617BA963254AA41300B940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617BA970254AA65E00B940B5 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		617BA973254AAACB00B940B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 		617BA953254AA41300B940B5 /* MNParentViewController */ = {
 			isa = PBXGroup;
 			children = (
+				617BA972254AAACB00B940B5 /* ParentViewController.storyboard */,
 				617BA954254AA41300B940B5 /* MNParentViewController.h */,
 				617BA955254AA41300B940B5 /* Info.plist */,
 				617BA970254AA65E00B940B5 /* ParentViewController.swift */,
@@ -593,6 +596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617BA974254AAACB00B940B5 /* ParentViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,6 +751,14 @@
 				617BA92A254AA20000B940B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		617BA972254AAACB00B940B5 /* ParentViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617BA973254AAACB00B940B5 /* Base */,
+			);
+			name = ParentViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
