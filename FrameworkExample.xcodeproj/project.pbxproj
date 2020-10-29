@@ -33,6 +33,11 @@
 		617BA971254AA65E00B940B5 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA970254AA65E00B940B5 /* ParentViewController.swift */; };
 		617BA974254AAACB00B940B5 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA972254AAACB00B940B5 /* ParentViewController.storyboard */; };
 		617BA978254AAFDA00B940B5 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617BA972254AAACB00B940B5 /* ParentViewController.storyboard */; };
+		61A9866D254AC281008D3A66 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 61A98668254AC280008D3A66 /* Sources */; };
+		61A9866E254AC281008D3A66 /* Tests in Resources */ = {isa = PBXBuildFile; fileRef = 61A98669254AC280008D3A66 /* Tests */; };
+		61A9866F254AC281008D3A66 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 61A9866A254AC280008D3A66 /* .gitignore */; };
+		61A98670254AC281008D3A66 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A9866B254AC280008D3A66 /* Package.swift */; };
+		61A98671254AC281008D3A66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 61A9866C254AC281008D3A66 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +144,11 @@
 		617BA963254AA41300B940B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		617BA970254AA65E00B940B5 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		617BA973254AAACB00B940B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		61A98668254AC280008D3A66 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		61A98669254AC280008D3A66 /* Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tests; sourceTree = "<group>"; };
+		61A9866A254AC280008D3A66 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		61A9866B254AC280008D3A66 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		61A9866C254AC281008D3A66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +332,11 @@
 		61A98667254AC19F008D3A66 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				61A9866A254AC280008D3A66 /* .gitignore */,
+				61A9866B254AC280008D3A66 /* Package.swift */,
+				61A9866C254AC281008D3A66 /* README.md */,
+				61A98668254AC280008D3A66 /* Sources */,
+				61A98669254AC280008D3A66 /* Tests */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -606,7 +621,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A9866F254AC281008D3A66 /* .gitignore in Resources */,
+				61A9866E254AC281008D3A66 /* Tests in Resources */,
+				61A98671254AC281008D3A66 /* README.md in Resources */,
 				617BA974254AAACB00B940B5 /* ParentViewController.storyboard in Resources */,
+				61A9866D254AC281008D3A66 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A98670254AC281008D3A66 /* Package.swift in Sources */,
 				617BA971254AA65E00B940B5 /* ParentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
