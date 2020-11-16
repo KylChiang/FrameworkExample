@@ -12,12 +12,23 @@
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6112487925624EDC00D3CCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6112487525624EDB00D3CCB7 /* PrivateAlamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D608E754247D086E00C29346;
+			remoteInfo = PrivateAlamofire;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		6112486525624A1300D3CCB7 /* MNParent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNParent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6112486825624A1300D3CCB7 /* MNParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNParent.h; sourceTree = "<group>"; };
 		6112486925624A1300D3CCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6112487125624BCB00D3CCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = "<group>"; };
 		6112487325624BE500D3CCB7 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentViewController.swift; path = ../../MNParentViewController/ParentViewController.swift; sourceTree = "<group>"; };
+		6112487525624EDB00D3CCB7 /* PrivateAlamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PrivateAlamofire.xcodeproj; path = ../../PrivateAlamofire/PrivateAlamofire.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +61,21 @@
 		6112486725624A1300D3CCB7 /* MNParent */ = {
 			isa = PBXGroup;
 			children = (
+				6112487525624EDB00D3CCB7 /* PrivateAlamofire.xcodeproj */,
 				6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */,
 				6112487325624BE500D3CCB7 /* ParentViewController.swift */,
 				6112486825624A1300D3CCB7 /* MNParent.h */,
 				6112486925624A1300D3CCB7 /* Info.plist */,
 			);
 			path = MNParent;
+			sourceTree = "<group>";
+		};
+		6112487625624EDB00D3CCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6112487A25624EDC00D3CCB7 /* libPrivateAlamofire.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,12 +136,28 @@
 			mainGroup = 6112485B25624A1300D3CCB7;
 			productRefGroup = 6112486625624A1300D3CCB7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6112487625624EDB00D3CCB7 /* Products */;
+					ProjectRef = 6112487525624EDB00D3CCB7 /* PrivateAlamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6112486425624A1300D3CCB7 /* MNParent */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6112487A25624EDC00D3CCB7 /* libPrivateAlamofire.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPrivateAlamofire.a;
+			remoteRef = 6112487925624EDC00D3CCB7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6112486325624A1300D3CCB7 /* Resources */ = {
