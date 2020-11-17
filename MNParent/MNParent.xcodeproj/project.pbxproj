@@ -10,7 +10,7 @@
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6112487225624BCB00D3CCB7 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */; };
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
-		6112487C25624FB600D3CCB7 /* libPrivateAlamofire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6112487A25624EDC00D3CCB7 /* libPrivateAlamofire.a */; };
+		616E8BE92563BF040076E2EE /* libMyStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616E8BE82563BF040076E2EE /* libMyStaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 		6112487125624BCB00D3CCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = "<group>"; };
 		6112487325624BE500D3CCB7 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentViewController.swift; path = ../../MNParentViewController/ParentViewController.swift; sourceTree = "<group>"; };
 		6112487525624EDB00D3CCB7 /* PrivateAlamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PrivateAlamofire.xcodeproj; path = ../../PrivateAlamofire/PrivateAlamofire.xcodeproj; sourceTree = "<group>"; };
+		616E8BE82563BF040076E2EE /* libMyStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyStaticLib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6112487C25624FB600D3CCB7 /* libPrivateAlamofire.a in Frameworks */,
+				616E8BE92563BF040076E2EE /* libMyStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +48,7 @@
 		6112485B25624A1300D3CCB7 = {
 			isa = PBXGroup;
 			children = (
+				616E8BE82563BF040076E2EE /* libMyStaticLib.a */,
 				6112486725624A1300D3CCB7 /* MNParent */,
 				6112486625624A1300D3CCB7 /* Products */,
 				6112487B25624FB600D3CCB7 /* Frameworks */,
@@ -341,9 +343,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MNParent",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.MNParent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,9 +376,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MNParent",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.MNParent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
