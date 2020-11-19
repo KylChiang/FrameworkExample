@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6176B1FB25666B4F00E1A540 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6176B1FE25666B4F00E1A540 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				6176B1FF25666B5400E1A540 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6112487225624BCB00D3CCB7 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */; };
@@ -103,6 +117,9 @@
 						CreatedOnToolsVersion = 11.7;
 						LastSwiftMigration = 1170;
 					};
+					6176B1FB25666B4F00E1A540 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 				};
 			};
 			buildConfigurationList = 6112485F25624A1300D3CCB7 /* Build configuration list for PBXProject "MNParent" */;
@@ -119,6 +136,7 @@
 			projectRoot = "";
 			targets = (
 				6112486425624A1300D3CCB7 /* MNParent-iOS */,
+				6176B1FB25666B4F00E1A540 /* Aggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +151,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6176B1FF25666B5400E1A540 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Setup\n#WORKSPACE=\"ECPayPaymentGatewayKit.xcworkspace\"\nFRAMEWORK_NAME=\"MNParent-iOS\"\nBUILD_DIR=\"${SRCROOT}/build\"\nOUTPUT_DIR=\"${SRCROOT}/Products\"\nOUTPUT=\"${OUTPUT_DIR}/${FRAMEWORK_NAME}.framework\"\nfor V in ${BUILD_VARIANTS}; do\n    for A in ${ARCHS}; do\n        unset SWIFT_RESPONSE_FILE_PATH_${V}_${A}\n    done\ndone\n#CONFIGURATION=\"${CONFIGURATION}\"\nCONFIGURATION=\"Release\"\n\nneedClear=\"clean\"\n#needClear=\"\"\n\nrm -rf \"${BUILD_DIR}/*\"\nrm -rf \"${OUTPUT}/*\"\nmkdir -p \"${OUTPUT_DIR}\"\n\n# Build the framework for device and for simulator (using all needed architectures).\nxcodebuild -workspace \"${WORKSPACE}\" -scheme \"${FRAMEWORK_NAME}\" -configuration ${CONFIGURATION} -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\" ${needClear} build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator -UseModernBuildSystem=NO\n#xcodebuild -workspace \"${WORKSPACE}\" -scheme \"${FRAMEWORK_NAME}\" -configuration ${CONFIGURATION} -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\" build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos -UseModernBuildSystem=NO\nxcodebuild -workspace \"${WORKSPACE}\" -scheme \"${FRAMEWORK_NAME}\" -configuration ${CONFIGURATION} only_active_arch=no defines_module=yes -sdk \"iphoneos\" ${needClear} build CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos -UseModernBuildSystem=NO\n\n# Copy the device version of framework to output.\ncp -r \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework\" \"${OUTPUT}\"\n\n# Replace the framework executable within the framework with a new version created by merging the device and simulator frameworks' executables with lipo.\nlipo -create -output \"${OUTPUT}/${FRAMEWORK_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# Copy the Swift module mappings for the simulator into the framework. The device mappings already exist from step 6.\ncp -r \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${OUTPUT}/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n#移除frameworks libswiftCore \nrm -rf \"${OUTPUT}/Frameworks\"\n\n# Delete build.\nrm -rf \"${BUILD_DIR}/*\"\n\n# Delete \"libswiftRemoteMirror.dylib\"\nrm -rf \"${OUTPUT}/libswiftRemoteMirror.dylib\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6112486125624A1300D3CCB7 /* Sources */ = {
@@ -332,6 +370,22 @@
 			};
 			name = Release;
 		};
+		6176B1FC25666B4F00E1A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6176B1FD25666B4F00E1A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +403,15 @@
 			buildConfigurations = (
 				6112486E25624A1300D3CCB7 /* Debug */,
 				6112486F25624A1300D3CCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6176B1FE25666B4F00E1A540 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6176B1FC25666B4F00E1A540 /* Debug */,
+				6176B1FD25666B4F00E1A540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
