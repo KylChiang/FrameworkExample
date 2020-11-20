@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+import MyStaticLib
 public class ParentViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        MyStaticLib.functionA()
     }
     
 
