@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Crl-ay-xTI-view-JY2-Nu-maq.nib</key>
 		<data>
-		DzqzNVfZU7No76Q9kHlNQ2RYUMU=
+		iDQkxJasWlJXbsUQdGIV2vRKb+w=
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/ParentViewController.nib</key>
 		<data>
-		p7Rba7FTXNY2TbO8Fd/M0Mu543g=
+		Dt5u8Qsfn+Zwgml7XsoZ5yGzWnc=
 		</data>
 		<key>Headers/MNParent.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I/1HsJDxgDNEtSiY8vOgJ05Hyvg=
+		iQq9Z+A7qHsIZUYWqyQ8Tt2gxeA=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+g7GvY/tJwQVN5PjqwcuUJOuNFs=
+		KiJGSXWJFG6qIMEY/ZIayRdN5dw=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		I/1HsJDxgDNEtSiY8vOgJ05Hyvg=
+		iQq9Z+A7qHsIZUYWqyQ8Tt2gxeA=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		+g7GvY/tJwQVN5PjqwcuUJOuNFs=
+		KiJGSXWJFG6qIMEY/ZIayRdN5dw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mCPyi+sA1PfKRENN8mseIRUMi56XOxSUzlPfT1pATL4=
+			QLYpkc0tzGhwn0CUfU3qFodfZ5hMOLuhpGQW57TbQP4=
 			</data>
 		</dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
@@ -77,7 +77,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B5tII8HV5yceVOTTcR2Ht+v9IscJYIFX7hSdwfcq5M=
+			W8Dea5sJpwTmSWgYEelQ4SoU/z4j8zn5AagAcF9Bsp0=
 			</data>
 		</dict>
 		<key>Headers/MNParent.h</key>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kzE9Xy7SgHctQ+R0LNB2btHuBoQ9/JoftAN9ni0284=
+			B/P1EGIgDFh/QKxjp9taUfEX0k4bVnHtm/mkY1uXxXo=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plZs2ueQSSA+GgXBuxd3NXl+MxyP/xGH8C/wyMRf5Lk=
+			WndX+DrhLAhSL6V54C+bmgo6snDDfwmKhncMms45Oo4=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kzE9Xy7SgHctQ+R0LNB2btHuBoQ9/JoftAN9ni0284=
+			B/P1EGIgDFh/QKxjp9taUfEX0k4bVnHtm/mkY1uXxXo=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plZs2ueQSSA+GgXBuxd3NXl+MxyP/xGH8C/wyMRf5Lk=
+			WndX+DrhLAhSL6V54C+bmgo6snDDfwmKhncMms45Oo4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
