@@ -21,17 +21,46 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A60AFCC94FEBAB6255EC0D /* Pods_MNParent_iOS.framework */; };
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6112487225624BCB00D3CCB7 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */; };
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		619A3B8F2567580C006A7298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		619A3B912567580C006A7298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86EFAADC6BC677F163737C224809460F;
+			remoteInfo = "Pods-MNParent-iOS";
+		};
+		619A3B932567580C006A7298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 002B1E88BA14EBF633CD66EBFBA107E9;
+			remoteInfo = PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		239E140CB4D9B7E9E4875C22 /* Pods-MNParent-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNParent-iOS.debug.xcconfig"; path = "Target Support Files/Pods-MNParent-iOS/Pods-MNParent-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		58A60AFCC94FEBAB6255EC0D /* Pods_MNParent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNParent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6112486525624A1300D3CCB7 /* MNParent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNParent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6112486825624A1300D3CCB7 /* MNParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNParent.h; sourceTree = "<group>"; };
 		6112486925624A1300D3CCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6112487125624BCB00D3CCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = "<group>"; };
 		6112487325624BE500D3CCB7 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentViewController.swift; path = ../../MNParentViewController/ParentViewController.swift; sourceTree = "<group>"; };
+		619A3B892567580C006A7298 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		C206D17C4FBF6B6C99E9D77C /* Pods-MNParent-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNParent-iOS.release.xcconfig"; path = "Target Support Files/Pods-MNParent-iOS/Pods-MNParent-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +68,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5202158321D2F7B8D61EA8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A60AFCC94FEBAB6255EC0D /* Pods_MNParent_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6112485B25624A1300D3CCB7 = {
 			isa = PBXGroup;
 			children = (
 				6112486725624A1300D3CCB7 /* MNParent */,
 				6112486625624A1300D3CCB7 /* Products */,
+				D744DFD1C23BF61EC10C78C5 /* Pods */,
+				5202158321D2F7B8D61EA8AB /* Frameworks */,
+				619A3B892567580C006A7298 /* Pods.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +113,25 @@
 			path = MNParent;
 			sourceTree = "<group>";
 		};
+		619A3B8A2567580C006A7298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619A3B902567580C006A7298 /* Alamofire.framework */,
+				619A3B922567580C006A7298 /* Pods_MNParent_iOS.framework */,
+				619A3B942567580C006A7298 /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D744DFD1C23BF61EC10C78C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239E140CB4D9B7E9E4875C22 /* Pods-MNParent-iOS.debug.xcconfig */,
+				C206D17C4FBF6B6C99E9D77C /* Pods-MNParent-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -90,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6112486D25624A1300D3CCB7 /* Build configuration list for PBXNativeTarget "MNParent-iOS" */;
 			buildPhases = (
+				057B19CD57FE2ACAD6E1E9EC /* [CP] Check Pods Manifest.lock */,
 				6112486025624A1300D3CCB7 /* Headers */,
 				6112486125624A1300D3CCB7 /* Sources */,
 				6112486225624A1300D3CCB7 /* Frameworks */,
@@ -133,6 +194,12 @@
 			mainGroup = 6112485B25624A1300D3CCB7;
 			productRefGroup = 6112486625624A1300D3CCB7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 619A3B8A2567580C006A7298 /* Products */;
+					ProjectRef = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6112486425624A1300D3CCB7 /* MNParent-iOS */,
@@ -140,6 +207,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		619A3B902567580C006A7298 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 619A3B8F2567580C006A7298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		619A3B922567580C006A7298 /* Pods_MNParent_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_MNParent_iOS.framework;
+			remoteRef = 619A3B912567580C006A7298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		619A3B942567580C006A7298 /* PromiseKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PromiseKit.framework;
+			remoteRef = 619A3B932567580C006A7298 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6112486325624A1300D3CCB7 /* Resources */ = {
@@ -153,6 +244,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		057B19CD57FE2ACAD6E1E9EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNParent-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6176B1FF25666B5400E1A540 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +430,7 @@
 		};
 		6112486E25624A1300D3CCB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E140CB4D9B7E9E4875C22 /* Pods-MNParent-iOS.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -333,18 +447,25 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.MNParent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
 			};
 			name = Debug;
 		};
 		6112486F25624A1300D3CCB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C206D17C4FBF6B6C99E9D77C /* Pods-MNParent-iOS.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -361,12 +482,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyl.MNParent;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/**";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
 			};
 			name = Release;
 		};
