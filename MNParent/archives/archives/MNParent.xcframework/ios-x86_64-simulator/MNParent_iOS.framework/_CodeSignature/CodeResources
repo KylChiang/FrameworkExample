@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Crl-ay-xTI-view-JY2-Nu-maq.nib</key>
 		<data>
-		DzqzNVfZU7No76Q9kHlNQ2RYUMU=
+		lZs3rhdEgQDLrdqPXqvB0sjoEbw=
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,19 @@
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/ParentViewController.nib</key>
 		<data>
-		p7Rba7FTXNY2TbO8Fd/M0Mu543g=
+		MMntT4ptKd1DgWCKPgp/Feh2CyU=
+		</data>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		fh3W2n+U5/Z36tkBCS/diZXeV/E=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		2nsD83iEy3PYMmgxN4j/KaxW1gM=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		jXPn32xFvrIKVXCZ9+46VN8QW7k=
 		</data>
 		<key>Headers/MNParent.h</key>
 		<data>
@@ -34,11 +46,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I/1HsJDxgDNEtSiY8vOgJ05Hyvg=
+		PItOxj1X2tVQL4F0mO0ziQcevS0=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+g7GvY/tJwQVN5PjqwcuUJOuNFs=
+		ifFpDD+bUbGcOZqwt2PRl1rAk2E=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -46,11 +58,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		I/1HsJDxgDNEtSiY8vOgJ05Hyvg=
+		PItOxj1X2tVQL4F0mO0ziQcevS0=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		+g7GvY/tJwQVN5PjqwcuUJOuNFs=
+		ifFpDD+bUbGcOZqwt2PRl1rAk2E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mCPyi+sA1PfKRENN8mseIRUMi56XOxSUzlPfT1pATL4=
+			RmKo/KFGdwWPpUQ4cwf/dBtm4JdolXB6u3+YNHcIsHA=
 			</data>
 		</dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
@@ -77,7 +89,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B5tII8HV5yceVOTTcR2Ht+v9IscJYIFX7hSdwfcq5M=
+			JM1rsVkF1VV6Ax/DNeIjIaZDtNcAXeuD2nqv9CrC9CE=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PH/UwRAxRKXrC/Jdi8iS5eUhKqgajcMz4lne7wC/2V0=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/YHfnhTMfCeIuCXfE8CrwkopcQbqcXX7OxK5bMUNU70=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hzyv1N6/8w8QHCzeFOWfllRxfYOOyR02aCYxDJgvZBA=
 			</data>
 		</dict>
 		<key>Headers/MNParent.h</key>
@@ -105,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kzE9Xy7SgHctQ+R0LNB2btHuBoQ9/JoftAN9ni0284=
+			x++5Ko6kM5aWrcjH1hkMhogWLkvrXrNUi4l9prds5Ik=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plZs2ueQSSA+GgXBuxd3NXl+MxyP/xGH8C/wyMRf5Lk=
+			Ds1auL6cO9N5i5T4ZqZKjYHxUkSOm+zWfHG6+QAILVU=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
@@ -126,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8kzE9Xy7SgHctQ+R0LNB2btHuBoQ9/JoftAN9ni0284=
+			x++5Ko6kM5aWrcjH1hkMhogWLkvrXrNUi4l9prds5Ik=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plZs2ueQSSA+GgXBuxd3NXl+MxyP/xGH8C/wyMRf5Lk=
+			Ds1auL6cO9N5i5T4ZqZKjYHxUkSOm+zWfHG6+QAILVU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

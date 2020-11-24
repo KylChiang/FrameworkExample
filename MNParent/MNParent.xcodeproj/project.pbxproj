@@ -25,6 +25,8 @@
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6112487225624BCB00D3CCB7 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */; };
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
+		61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; };
+		61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		61CD2E30256CA59800118C19 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		239E140CB4D9B7E9E4875C22 /* Pods-MNParent-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNParent-iOS.debug.xcconfig"; path = "Target Support Files/Pods-MNParent-iOS/Pods-MNParent-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		58A60AFCC94FEBAB6255EC0D /* Pods_MNParent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNParent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */,
+				61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +172,7 @@
 				6112486125624A1300D3CCB7 /* Sources */,
 				6112486225624A1300D3CCB7 /* Frameworks */,
 				6112486325624A1300D3CCB7 /* Resources */,
+				61CD2E30256CA59800118C19 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
