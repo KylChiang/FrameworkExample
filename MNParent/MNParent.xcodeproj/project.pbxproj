@@ -27,6 +27,8 @@
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
 		61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; };
 		61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61FD732A256E03C900DAD265 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B942567580C006A7298 /* PromiseKit.framework */; };
+		61FD732B256E03C900DAD265 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B942567580C006A7298 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */,
+				61FD732B256E03C900DAD265 /* PromiseKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FD732A256E03C900DAD265 /* PromiseKit.framework in Frameworks */,
 				38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */,
 				61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */,
 			);
