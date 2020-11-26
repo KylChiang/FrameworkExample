@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MNParent_iOS
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tappedSeeButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "ParentViewController", bundle: Bundle(identifier: "com.kyl.MNParent"))
+        let vc = storyboard.instantiateViewController(withIdentifier: "ParentViewController")
+        self.present(vc, animated: true)
+    }
+    
 }
 

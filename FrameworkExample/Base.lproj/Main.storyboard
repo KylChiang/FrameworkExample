@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17700" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,11 +27,11 @@
                                             <constraint firstAttribute="height" constant="50" id="8hV-ho-yxJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
-                                        <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="khi-mY-20U" secondAttribute="trailing" constant="17.5" id="4Dk-tK-Rnw"/>
                                     <constraint firstAttribute="height" constant="200" id="LIM-31-g0h"/>
@@ -38,7 +40,7 @@
                                     <constraint firstItem="khi-mY-20U" firstAttribute="centerY" secondItem="mNp-WT-lvN" secondAttribute="centerY" id="zTe-ha-LJL"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGm-bp-gzF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGm-bp-gzF">
                                 <rect key="frame" x="185" y="674" width="44" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="FxH-Hj-lZR"/>
@@ -46,18 +48,19 @@
                                 </constraints>
                                 <state key="normal" title="See!"/>
                                 <connections>
+                                    <action selector="tappedSeeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfr-qS-8cK"/>
                                     <segue destination="cZT-sj-Xl4" kind="show" id="dpB-FN-fFj"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KGm-bp-gzF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0LA-7z-Lqd"/>
                             <constraint firstItem="mNp-WT-lvN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKa-Xh-k6H"/>
                             <constraint firstItem="KGm-bp-gzF" firstAttribute="top" secondItem="mNp-WT-lvN" secondAttribute="bottom" constant="126" id="e2z-FC-7Qn"/>
                             <constraint firstItem="mNp-WT-lvN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kHX-F7-fx5"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -75,4 +78,12 @@
             <point key="canvasLocation" x="987" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

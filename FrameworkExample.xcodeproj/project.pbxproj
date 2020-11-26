@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615A225B256F85CB00A273E6 /* MNParent.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615A2251256F85BB00A273E6 /* MNParent.xcframework */; };
+		615A225C256F85CB00A273E6 /* MNParent.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 615A2251256F85BB00A273E6 /* MNParent.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		617BA8E7254A9DA500B940B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8E6254A9DA500B940B5 /* AppDelegate.swift */; };
 		617BA8E9254A9DA500B940B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8E8254A9DA500B940B5 /* SceneDelegate.swift */; };
 		617BA8EB254A9DA500B940B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617BA8EA254A9DA500B940B5 /* ViewController.swift */; };
@@ -94,6 +96,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				615A225C256F85CB00A273E6 /* MNParent.xcframework in Embed Frameworks */,
 				617BA968254AA41300B940B5 /* MNParentViewController.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -102,6 +105,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		615A2251256F85BB00A273E6 /* MNParent.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MNParent.xcframework; path = MNParent/archives/archives/MNParent.xcframework; sourceTree = SOURCE_ROOT; };
 		617BA8E3254A9DA500B940B5 /* FrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617BA8E6254A9DA500B940B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		617BA8E8254A9DA500B940B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615A225B256F85CB00A273E6 /* MNParent.xcframework in Frameworks */,
 				617BA967254AA41300B940B5 /* MNParentViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +241,7 @@
 		617BA8E5254A9DA500B940B5 /* FrameworkExample */ = {
 			isa = PBXGroup;
 			children = (
+				615A2251256F85BB00A273E6 /* MNParent.xcframework */,
 				617BA8E6254A9DA500B940B5 /* AppDelegate.swift */,
 				617BA8E8254A9DA500B940B5 /* SceneDelegate.swift */,
 				617BA8EA254A9DA500B940B5 /* ViewController.swift */,
