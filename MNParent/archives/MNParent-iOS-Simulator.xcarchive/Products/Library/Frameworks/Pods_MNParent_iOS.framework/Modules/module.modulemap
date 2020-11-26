@@ -1,6 +1,0 @@
-framework module Pods_MNParent_iOS {
-  umbrella header "Pods-MNParent-iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
