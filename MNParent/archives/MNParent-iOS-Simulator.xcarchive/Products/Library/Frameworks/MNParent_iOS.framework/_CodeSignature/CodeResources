@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Crl-ay-xTI-view-JY2-Nu-maq.nib</key>
 		<data>
-		nOFtm1LtCCtYhcdkTJXmx9tlPhQ=
+		92kBqoQ5kpV6GlcWsCxnZeYN54M=
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/ParentViewController.nib</key>
 		<data>
-		fw07R3bXkveCfppu4Lb8ICqNaUc=
+		cnX82S6ZyhB1UsfWqD3NFCUaWus=
 		</data>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<key>Frameworks/SwiftyRSA.framework/Info.plist</key>
 		<data>
-		W8m2h0TS24zBoti9bDdEoJAVA/Y=
+		Rw4EyDnJt+ySIbEpG93eMGqP8MQ=
 		</data>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<key>Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<data>
-		d1RtRH5y0ru13Z2kAlZRvzxY/7c=
+		r6g1mmk1wlshx0w0W+jrB4Q0KGA=
 		</data>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<data>
-		VDWN2v6LsM2cN4iSwq95hk/Z1QI=
+		r3ahh311tIqNKcZVOzjwlXt0GRI=
 		</data>
 		<key>Headers/MNParent.h</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MzyNjTKI0vgY5nFCMzfso8mnYdM=
+		r+s2VQwrQ4bptaXQAkR6cNCGmT0=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KkrHu+eq4u9219VPGB28VbbghjA=
+		0QZV6l24DrJl7inpjdcxKs3qSd8=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		MzyNjTKI0vgY5nFCMzfso8mnYdM=
+		r+s2VQwrQ4bptaXQAkR6cNCGmT0=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		KkrHu+eq4u9219VPGB28VbbghjA=
+		0QZV6l24DrJl7inpjdcxKs3qSd8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			apqwshFxNGc15zbYO2hrJ/g8k1kujaXnRpoLRoUIUpo=
+			b+dnqnnFRQSsUJ0oGKujGqGLhGbwuqPPBnl6XRLvnnU=
 			</data>
 		</dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
@@ -89,28 +89,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5oob//lDCeNyS0aSIWLYc4FMWESYe82bpKtYbDVz1E4=
+			1FyRCxSWWwxTTsjCwloA4bmk9Iisjus8ut81LY7wHEY=
 			</data>
 		</dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<key>Frameworks/SwiftyRSA.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			77pbY3djF8iR2OD3k9pRORyjosY9JGUADJF95pgcb9w=
+			NjmKb/SAYkV98yBBShlQZrm3l3i1t7fqLIzC8NB0lg4=
 			</data>
 		</dict>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<key>Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yf+Qcm5vS0jPaeb8++Gv9FHFDjRvDuUcFUSpaHE0clE=
+			UvGXVlqvhhxHSq+9l43TuNYT+RYNr0ccNu/P2qMqpkI=
 			</data>
 		</dict>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPPJDT1RLsWV4GejkCjSHQCcYa/GWOA2G77AOFSqX+k=
+			5N7Bbw2WbSghGEG0gAvRHWlDGoFMEqDEtZRN86tlzT0=
 			</data>
 		</dict>
 		<key>Headers/MNParent.h</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZVpi51PIRE/cvOm0kEVBnzg/dCuVVQHEDFWTvzVpuY=
+			ZwFghUBcl1irK0x6lzC0C4mXWzVRzH57s8+Cy3X3x6c=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkx41sCY9k3qSvi5QQmVHYhFZcLIe7v5J6F48Wt17aM=
+			UrmQ8RjOPw1ekiDA7u4cGn96R9eDWaiyjLkaK1cVi8Y=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wZVpi51PIRE/cvOm0kEVBnzg/dCuVVQHEDFWTvzVpuY=
+			ZwFghUBcl1irK0x6lzC0C4mXWzVRzH57s8+Cy3X3x6c=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkx41sCY9k3qSvi5QQmVHYhFZcLIe7v5J6F48Wt17aM=
+			UrmQ8RjOPw1ekiDA7u4cGn96R9eDWaiyjLkaK1cVi8Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
