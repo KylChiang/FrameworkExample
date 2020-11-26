@@ -27,8 +27,6 @@
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
 		61C8F613256F925000CBBC20 /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C8F612256F924B00CBBC20 /* SwiftyRSA.framework */; };
 		61C8F614256F925000CBBC20 /* SwiftyRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61C8F612256F924B00CBBC20 /* SwiftyRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		61C8F61F256F9BBE00CBBC20 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C8F61E256F9BBE00CBBC20 /* Alamofire.framework */; };
-		61C8F620256F9BBE00CBBC20 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61C8F61E256F9BBE00CBBC20 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +44,6 @@
 			remoteGlobalIDString = 0DA4828908E30CE4A29CB9AD3A405635;
 			remoteInfo = SwiftyRSA;
 		};
-		61C8F61D256F9BBE00CBBC20 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
-			remoteInfo = Alamofire;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,7 +54,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				61C8F614256F925000CBBC20 /* SwiftyRSA.framework in Embed Frameworks */,
-				61C8F620256F9BBE00CBBC20 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */,
-				61C8F61F256F9BBE00CBBC20 /* Alamofire.framework in Frameworks */,
 				61C8F613256F925000CBBC20 /* SwiftyRSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +126,6 @@
 		619A3B8A2567580C006A7298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61C8F61E256F9BBE00CBBC20 /* Alamofire.framework */,
 				619A3B922567580C006A7298 /* Pods_MNParent_iOS.framework */,
 				61C8F612256F924B00CBBC20 /* SwiftyRSA.framework */,
 			);
@@ -243,13 +231,6 @@
 			fileType = wrapper.framework;
 			path = SwiftyRSA.framework;
 			remoteRef = 61C8F611256F924B00CBBC20 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		61C8F61E256F9BBE00CBBC20 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 61C8F61D256F9BBE00CBBC20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Crl-ay-xTI-view-JY2-Nu-maq.nib</key>
 		<data>
-		fAk3pHcjqwHCtkXdNXdzgeOZEEY=
+		Ak4mlY8NMir+mGeu8T6ylt/Bttc=
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
 		<data>
@@ -14,19 +14,7 @@
 		</data>
 		<key>Base.lproj/ParentViewController.storyboardc/ParentViewController.nib</key>
 		<data>
-		fyjo9yXz6EA/jbIIzfumikXmQ2I=
-		</data>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<data>
-		wrQ7oLDe67Teg37mVarU+Q7p0+g=
-		</data>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<data>
-		m4VWJxlfTKnFxKSbHt5kYZtYBZU=
-		</data>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<data>
-		TiJeSBv/1TCY5p4qFfggE7Ww96Q=
+		yFHLm41z5FkSWZGUBunkGP9ZeUk=
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/Info.plist</key>
 		<data>
@@ -34,7 +22,7 @@
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<data>
-		FQL8jHEob325JKEG6mVpWliH3CA=
+		/NX16D+iQQOLwqnZnh9Ph7GAgWc=
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -58,11 +46,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HIqTbvEQYGtxb0ZxAcctgJP0ylk=
+		sidklvLQ/C2peBWMMzgdE5NSUIs=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m81xtTsoECJzal9Z6TEpTf0C6pM=
+		+BcluAqs65RhI1OMPe2NFuMkls4=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -70,11 +58,11 @@
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		HIqTbvEQYGtxb0ZxAcctgJP0ylk=
+		sidklvLQ/C2peBWMMzgdE5NSUIs=
 		</data>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		m81xtTsoECJzal9Z6TEpTf0C6pM=
+		+BcluAqs65RhI1OMPe2NFuMkls4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fuVPTGxA41wW3XrXb3pEyEE/Xn0zge6vaZB6evYoaG4=
+			q2JSJUdTKZvoMdFHqQ6kmKxhQ8w87OMuoIZdwrBoZ/c=
 			</data>
 		</dict>
 		<key>Base.lproj/ParentViewController.storyboardc/Info.plist</key>
@@ -101,28 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCnmyRPN1Y9JN32+zKo7hC01Z4oDjoXijcvLiwpMBY0=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A5i8c87gxmrjMOK6LNUxU1ms2OQIv2KrSO+MllxGvko=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rrdOU5vfLQt20wiUsrLdqBDcVAW3W3bz9OpLX43A7lw=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pmZxN8ysbZZ6KwXN3UhDOlWkOFX3zAy3vb0MDwLWxbY=
+			wL0Wga1Ul7G+bYdtv7edqLttUdIqHATszNgn3aO9hXY=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyRSA.framework/Info.plist</key>
@@ -136,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ek7D42SsbMALw2SJ4cRF5+vGMmWHOMKbI7BlSxDLVok=
+			/sGUSVRbLOJVi372uJ9MU30xrIBCF9QWpmzT4ouaBrk=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
@@ -171,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRfl9tr2mbeQFuhLJp0ToCkRZY6uTMIEljIhl3wLiC8=
+			pUKNpZMewL3dOY4Va8JkUJy0/YlDkKqpZ28jDnyIGp8=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RsDGa/hT4ganIx9j53ZohKM0xbGtN1YjXbbF0sWyUBU=
+			bOaorXs6mL/fG6rSTbshcxtf8xiMT720E2tRBX2bQ24=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftdoc</key>
@@ -192,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRfl9tr2mbeQFuhLJp0ToCkRZY6uTMIEljIhl3wLiC8=
+			pUKNpZMewL3dOY4Va8JkUJy0/YlDkKqpZ28jDnyIGp8=
 			</data>
 		</dict>
 		<key>Modules/MNParent_iOS.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RsDGa/hT4ganIx9j53ZohKM0xbGtN1YjXbbF0sWyUBU=
+			bOaorXs6mL/fG6rSTbshcxtf8xiMT720E2tRBX2bQ24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

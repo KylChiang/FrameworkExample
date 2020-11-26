@@ -8,7 +8,7 @@
 
 import UIKit
 import SwiftyRSA
-import Alamofire
+//import Alamofire
 //import Alamofire
 //import PromiseKit
 //
@@ -35,13 +35,13 @@ public class ParentViewController: UIViewController {
         }
     }
     
-    public static func getResponse() {
-        let parameters = ["category": "Movies", "genre": "Action"]
-
-        AF.request("https://httpbin.org/get", parameters: parameters).response { response in
-            debugPrint(response)
-        }
-    }
+//    public static func getResponse() {
+//        let parameters = ["category": "Movies", "genre": "Action"]
+//
+//        AF.request("https://httpbin.org/get", parameters: parameters).response { response in
+//            debugPrint(response)
+//        }
+//    }
 //    static let api_url:String = "http://httpbin.org/post"
 //
 //    public static func queryPostAPI() -> Promise<[String: Any]> {
