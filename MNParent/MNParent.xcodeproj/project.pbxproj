@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6112486525624A1300D3CCB7 /* MNParent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNParent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6112486525624A1300D3CCB7 /* MNParent_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNParent_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6112486825624A1300D3CCB7 /* MNParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNParent.h; sourceTree = "<group>"; };
 		6112486925624A1300D3CCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6112487125624BCB00D3CCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../FrameworkExample/Base.lproj/ParentViewController.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		6112486625624A1300D3CCB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6112486525624A1300D3CCB7 /* MNParent.framework */,
+				6112486525624A1300D3CCB7 /* MNParent_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,9 +72,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6112486425624A1300D3CCB7 /* MNParent */ = {
+		6112486425624A1300D3CCB7 /* MNParent-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6112486D25624A1300D3CCB7 /* Build configuration list for PBXNativeTarget "MNParent" */;
+			buildConfigurationList = 6112486D25624A1300D3CCB7 /* Build configuration list for PBXNativeTarget "MNParent-iOS" */;
 			buildPhases = (
 				6112486025624A1300D3CCB7 /* Headers */,
 				6112486125624A1300D3CCB7 /* Sources */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = MNParent;
+			name = "MNParent-iOS";
 			productName = MNParent;
-			productReference = 6112486525624A1300D3CCB7 /* MNParent.framework */;
+			productReference = 6112486525624A1300D3CCB7 /* MNParent_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6112486425624A1300D3CCB7 /* MNParent */,
+				6112486425624A1300D3CCB7 /* MNParent-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6112486D25624A1300D3CCB7 /* Build configuration list for PBXNativeTarget "MNParent" */ = {
+		6112486D25624A1300D3CCB7 /* Build configuration list for PBXNativeTarget "MNParent-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6112486E25624A1300D3CCB7 /* Debug */,
