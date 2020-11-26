@@ -6,6 +6,7 @@ import SwiftyRSA
 import UIKit
 @objc @_inheritsConvenienceInitializers public class ParentViewController : UIKit.UIViewController {
   @objc override dynamic public func viewDidLoad()
+  public static func publicKey()
   @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)

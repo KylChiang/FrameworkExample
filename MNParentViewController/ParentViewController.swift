@@ -21,16 +21,18 @@ public class ParentViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
+    
+    public static func publicKey() {
         do {
             let publicKey = try PublicKey(pemNamed: "public")
             print("public key: \(try publicKey.base64String())")
         } catch let err {
             print("error: \(err)")
         }
-        
-        // Do any additional setup after loading the view.
     }
-    
 //    static let api_url:String = "http://httpbin.org/post"
 //
 //    public static func queryPostAPI() -> Promise<[String: Any]> {
