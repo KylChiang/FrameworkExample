@@ -7,7 +7,7 @@ target 'MNParent-iOS' do
 
   # Pods for MNParent-iOS
 #  pod 'PromiseKit' , '~> 6.8.3'
-#  pod 'Alamofire', '~> 5.2.0'
+  pod 'Alamofire'
   pod 'SwiftyRSA'
 
 end
