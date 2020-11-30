@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2579F54D257520FF00E757A9 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2579F54E257520FF00E757A9 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2579F556257521CE00E757A9 /* PBXTargetDependency */,
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A60AFCC94FEBAB6255EC0D /* Pods_MNParent_iOS.framework */; };
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2579F555257521CE00E757A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6112485C25624A1300D3CCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6112486425624A1300D3CCB7;
+			remoteInfo = "MNParent-iOS";
+		};
 		619A3B912567580C006A7298 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
@@ -152,6 +173,9 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = kyl;
 				TargetAttributes = {
+					2579F54D257520FF00E757A9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					6112486425624A1300D3CCB7 = {
 						CreatedOnToolsVersion = 11.7;
 						LastSwiftMigration = 1170;
@@ -178,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				6112486425624A1300D3CCB7 /* MNParent-iOS */,
+				2579F54D257520FF00E757A9 /* Aggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +271,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2579F556257521CE00E757A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6112486425624A1300D3CCB7 /* MNParent-iOS */;
+			targetProxy = 2579F555257521CE00E757A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -258,6 +291,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2579F54F257520FF00E757A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87ASL7GP9K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2579F550257520FF00E757A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87ASL7GP9K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		6112486B25624A1300D3CCB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,6 +515,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2579F54E257520FF00E757A9 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2579F54F257520FF00E757A9 /* Debug */,
+				2579F550257520FF00E757A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6112485F25624A1300D3CCB7 /* Build configuration list for PBXProject "MNParent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

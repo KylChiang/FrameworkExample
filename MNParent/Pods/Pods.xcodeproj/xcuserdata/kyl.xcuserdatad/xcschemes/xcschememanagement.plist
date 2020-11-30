@@ -4,23 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Aggregate.xcscheme_^#shared#^_</key>
+		<key>Pods-MNParent-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
-		<key>MNParent-iOS.xcscheme_^#shared#^_</key>
+		<key>SwiftyRSA.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>2579F54D257520FF00E757A9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
