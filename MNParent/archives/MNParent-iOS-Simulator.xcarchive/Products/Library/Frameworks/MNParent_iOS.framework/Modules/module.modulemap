@@ -1,4 +1,0 @@
-framework module MNParent_iOS {
-  header "MNParent_iOS-Swift.h"
-  requires objc
-}

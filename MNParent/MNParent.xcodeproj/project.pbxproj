@@ -14,6 +14,7 @@
 				2579F557257522A800E757A9 /* Create Aggregate XCFramework */,
 			);
 			dependencies = (
+				2579F5892575345C00E757A9 /* PBXTargetDependency */,
 				2579F556257521CE00E757A9 /* PBXTargetDependency */,
 			);
 			name = Aggregate;
@@ -35,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6112486425624A1300D3CCB7;
 			remoteInfo = "MNParent-iOS";
+		};
+		2579F5882575345C00E757A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A1C13902E7ACDA3ABB5BA1FEACC86C;
+			remoteInfo = SwiftyRSA;
 		};
 		619A3B912567580C006A7298 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -275,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "$SRCROOT/script/create_xcframework.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -295,6 +303,11 @@
 			isa = PBXTargetDependency;
 			target = 6112486425624A1300D3CCB7 /* MNParent-iOS */;
 			targetProxy = 2579F555257521CE00E757A9 /* PBXContainerItemProxy */;
+		};
+		2579F5892575345C00E757A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRSA;
+			targetProxy = 2579F5882575345C00E757A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
