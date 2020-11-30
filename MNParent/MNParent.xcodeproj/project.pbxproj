@@ -25,20 +25,9 @@
 		6112486A25624A1300D3CCB7 /* MNParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6112486825624A1300D3CCB7 /* MNParent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6112487225624BCB00D3CCB7 /* ParentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6112487025624BCB00D3CCB7 /* ParentViewController.storyboard */; };
 		6112487425624BE500D3CCB7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112487325624BE500D3CCB7 /* ParentViewController.swift */; };
-		61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; };
-		61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B902567580C006A7298 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		61FD732A256E03C900DAD265 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B942567580C006A7298 /* PromiseKit.framework */; };
-		61FD732B256E03C900DAD265 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 619A3B942567580C006A7298 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		619A3B8F2567580C006A7298 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
-			remoteInfo = Alamofire;
-		};
 		619A3B912567580C006A7298 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
@@ -46,29 +35,14 @@
 			remoteGlobalIDString = 86EFAADC6BC677F163737C224809460F;
 			remoteInfo = "Pods-MNParent-iOS";
 		};
-		619A3B932567580C006A7298 /* PBXContainerItemProxy */ = {
+		61C8F611256F924B00CBBC20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 619A3B892567580C006A7298 /* Pods.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 002B1E88BA14EBF633CD66EBFBA107E9;
-			remoteInfo = PromiseKit;
+			remoteGlobalIDString = 0DA4828908E30CE4A29CB9AD3A405635;
+			remoteInfo = SwiftyRSA;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		61CD2E30256CA59800118C19 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				61CD2E2F256CA59800118C19 /* Alamofire.framework in Embed Frameworks */,
-				61FD732B256E03C900DAD265 /* PromiseKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		239E140CB4D9B7E9E4875C22 /* Pods-MNParent-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNParent-iOS.debug.xcconfig"; path = "Target Support Files/Pods-MNParent-iOS/Pods-MNParent-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,9 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FD732A256E03C900DAD265 /* PromiseKit.framework in Frameworks */,
 				38B217D0A7ED270115AFDA06 /* Pods_MNParent_iOS.framework in Frameworks */,
-				61CD2E2E256CA59800118C19 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +109,8 @@
 		619A3B8A2567580C006A7298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				619A3B902567580C006A7298 /* Alamofire.framework */,
 				619A3B922567580C006A7298 /* Pods_MNParent_iOS.framework */,
-				619A3B942567580C006A7298 /* PromiseKit.framework */,
+				61C8F612256F924B00CBBC20 /* SwiftyRSA.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,7 +147,6 @@
 				6112486125624A1300D3CCB7 /* Sources */,
 				6112486225624A1300D3CCB7 /* Frameworks */,
 				6112486325624A1300D3CCB7 /* Resources */,
-				61CD2E30256CA59800118C19 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,13 +201,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		619A3B902567580C006A7298 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 619A3B8F2567580C006A7298 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		619A3B922567580C006A7298 /* Pods_MNParent_iOS.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -245,11 +208,11 @@
 			remoteRef = 619A3B912567580C006A7298 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		619A3B942567580C006A7298 /* PromiseKit.framework */ = {
+		61C8F612256F924B00CBBC20 /* SwiftyRSA.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = PromiseKit.framework;
-			remoteRef = 619A3B932567580C006A7298 /* PBXContainerItemProxy */;
+			path = SwiftyRSA.framework;
+			remoteRef = 61C8F611256F924B00CBBC20 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

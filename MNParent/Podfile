@@ -6,7 +6,8 @@ target 'MNParent-iOS' do
   use_frameworks!
 
   # Pods for MNParent-iOS
-  pod 'PromiseKit' , '~> 6.8.3'
-  pod 'Alamofire', '~> 5.2.0'
+#  pod 'PromiseKit' , '~> 6.8.3'
+#  pod 'Alamofire'
+  pod 'SwiftyRSA'
 
 end
